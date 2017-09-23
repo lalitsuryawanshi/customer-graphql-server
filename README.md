@@ -1,11 +1,13 @@
 # graphql-server
-GraphQL server with http CRUD operations
+GraphQL server with http CRUD operations for Customer Data
 
 - Included json-server with sample customer data
 - Get/Post/Patch/Delete operations are implemented
 - Data saved in db.json file locally, can be pointed to any rest data source
 
 How to run (refer package.json file)
+- First install node packages
+  - npm install
 - Run json-server on port 3000
   - npm run json:server
   - see data in browser localhost:3000/customers

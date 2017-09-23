@@ -1,4 +1,6 @@
 How to run (refer package.json file)
+- First install node packages
+  - npm install
 - Run json-server on port 3000
   - npm run json:server
   - see data in browser localhost:3000/customers
